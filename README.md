@@ -184,28 +184,4 @@ Based on the interface, here are example question types the system handles well:
    - Try more specific questions
    - Upload additional relevant documents
 
-## Contributing
-
-[Add contribution guidelines if this is an open-source project]
-
-## License
-
-[Add license information]
-
-## Support
-
-For technical support or questions:
-- Check the troubleshooting section above
-- Review system logs for error messages
-- Ensure all prerequisites are met
-
-## Version History
-
-- **v1.0.0**: Initial release with context-only RAG functionality
-- Document processing and chunking system
-- Llama2 integration for response generation
-- Web-based interface for document upload and querying
-
----
-
 **Remember**: This system answers ONLY from your uploaded documents - no external knowledge is used!
