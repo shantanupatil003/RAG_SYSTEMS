@@ -325,7 +325,7 @@ class ContextOnlyRAGSystem:
             models = [model['name'] for model in result.get('models', [])]
             return models if models else ['llama2']
         except:
-            return ['llama2', 'mistral', 'codellama']
+            return ['llama2']
     
     def create_strict_context_prompt(self, query: str, context_chunks: List[Tuple[Dict, float, str]]) -> str:
         """Create a prompt that ONLY allows context-based answers"""
